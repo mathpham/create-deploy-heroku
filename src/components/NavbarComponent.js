@@ -45,11 +45,11 @@ function NavbarComponent(props) {
                             <ul className="navbar-nav">
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        家計管理
+                                        費用管理
                                     </a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a className="dropdown-item" href="/expense-add">家計を追加</a>
-                                        <a className="dropdown-item" href={"/expense-list/" + year + "/" + month}>家計を見る</a>
+                                        <a className="dropdown-item" href="/expense-add">費用を追加</a>
+                                        <a className="dropdown-item" href={"/expense-list/" + year + "/" + month}>費用を見る</a>
                                     </div>
                                 </li>
                             </ul>
@@ -102,11 +102,11 @@ function NavbarComponent(props) {
                             <ul className="navbar-nav">
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        家計管理
+                                        費用管理
                                     </a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a className="dropdown-item" href="/expense-add">家計を追加</a>
-                                        <a className="dropdown-item" href={"/expense-list/" + year + "/" + month}>家計を見る</a>
+                                        <a className="dropdown-item" href="/expense-add">費用を追加</a>
+                                        <a className="dropdown-item" href={"/expense-list/" + year + "/" + month}>費用を見る</a>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown">
