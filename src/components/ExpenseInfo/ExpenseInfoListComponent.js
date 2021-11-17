@@ -88,7 +88,7 @@ function ExpenseInfoListComponent(props) {
                 <div className="p-2 bd-highlight">
                     <button type="button" className="btn btn-primary btn-sm" onClick={prevMonth}>前月へ</button>
                 </div>
-                <div className="p-2 bd-highlight"><h2 className="text-center">家計一覧 {year}年{month}月</h2></div>
+                <div className="p-2 bd-highlight"><h2 className="text-center">費用一覧 {year}年{month}月</h2></div>
                 <div className="p-2 bd-highlight">
                     <button type="button" className="btn btn-primary btn-sm" onClick={nextMonth}>翌月へ</button>
                 </div>
