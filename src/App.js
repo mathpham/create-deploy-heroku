@@ -23,6 +23,7 @@ import StoreAdd from './components/Store/StoreAdd';
 import FamilyMembers from './components/Family/FamilyMembers';
 import AddMember from './components/Family/AddMember';
 import CreateFirstFamilyMember from './components/Family/CreateFirstFamilyMember';
+import Home from './components/Home';
 function App() {
   const dispatch = useDispatch();
   dispatch(checkauthlevel());
@@ -88,6 +89,7 @@ function App() {
       <NavbarComponent />
       <div className="container mt-3">
         <Switch>
+          <Route exact path="/" component={Home} />
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/testcode" component={TestCode} />
